@@ -19,16 +19,16 @@ def load_arguments():
             default=False)
     argparser.add_argument('--output',
             type=str,
-            default='../tmp/wuxia.dev')
+            default='./wuxia.dev')
     argparser.add_argument('--vocab',
             type=str,
-            default='../tmp/wuxia.vocab')
+            default='./wuxia.vocab')
     argparser.add_argument('--embedding',
             type=str,
             default='')
     argparser.add_argument('--model',
             type=str,
-            default='../tmp/model')
+            default='./model')
     argparser.add_argument('--load_model',
             type=bool,
             default=False)
